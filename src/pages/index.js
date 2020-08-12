@@ -41,7 +41,7 @@ export default function Home() {
     <div>
       <div class="new-nav-background">
         <div class="desktop-nav-container">
-          <a href="#"><img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5d992e6ce288d83a93a1a0d8_Guru_AllBlack.svg" class="gru" /></a>
+          <a href="#" class="hvr-bounce-in"><img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5d992e6ce288d83a93a1a0d8_Guru_AllBlack.svg" class="gru" /></a>
           <Popover content={product} title="Product">
             <Button type="link" style={{color: "black"}} ghost>Product</Button>
           </Popover>
@@ -53,6 +53,12 @@ export default function Home() {
           <Popover content={resources} title="Resources">
             <Button type="link" style={{color: "black"}} ghost>Resources</Button>
           </Popover>
+          <div class="right-button1">
+            <Button type="link" style={{color: "black"}} ghost>Log in</Button>
+          </div>
+          <div class="right-button2">
+            <Button type="primary" class="button" style={{color: "white", width: 130}} >Sign up for free</Button>
+          </div>
         </div>
       </div>
       <div class="subheader">
@@ -75,6 +81,7 @@ export default function Home() {
           <div class="wave"></div>
         </div>
       </div>
+      <p>You’ll be in <em>very</em> good company with Guru&#x27;s other customers</p>
     </div>
   )
 }

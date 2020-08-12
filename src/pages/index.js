@@ -66,15 +66,15 @@ export default function Home() {
         <div class="tiny-text">Get started for <strong>free</strong>! 🚀</div>
       </div> 
       <div class="main-container">
-      <div class="container stack-top" >
-          <img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" />
+        <div class="container stack-top"  >
+            <img style={{height: 800, width:1000, margin:170}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" />
         </div>
         <div class="container">
           <div class="wave"></div>
         </div>
-        </div>
+      </div>
     </div>
-    )
+  )
 }
 
 

@@ -124,7 +124,7 @@ a.blue:visited {
 .container {
     position: relative;
     background: #880096;
-    height: 50vh;
+    height: 100vh;
 }
 
 .wave {
@@ -159,11 +159,5 @@ a.blue:visited {
 
 .stack-top{
     z-index: 9;
-    margin: 20px; 
-    width:50%
-}
-
-.big-img {
-    height:100px;
-    width:100px; 
+    top: 100px;
 }

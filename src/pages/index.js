@@ -66,8 +66,10 @@ export default function Home() {
         <div class="tiny-text">Get started for <strong>free</strong>! 🚀</div>
       </div> 
       <div class="main-container">
-        <div class="container stack-top"  >
+        <div class="container stack-top">
+          <div class="hvr-rotate">
             <img style={{height: 800, width:1000, margin:170}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" />
+          </div>
         </div>
         <div class="container">
           <div class="wave"></div>

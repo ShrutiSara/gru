@@ -62,10 +62,17 @@ export default function Home() {
           Spend less time searching &amp; more time doing whatever it was you were actually hired to do.
         </div>
         <br/>
-        <a href="#" style={{color: 'white'}} class="hvr-wobble-to-bottom-right button">Pick a plan</a>
+        <a href="#" style={{color: 'white'}} class="hvr-wobble-to-bottom-right button hvr-outline-out button-border">Pick a plan</a>
         <div class="tiny-text">Get started for <strong>free</strong>! 🚀</div>
-        <img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" />
-      </div>
+      </div> 
+      <div class="main-container">
+      <div class="container stack-top" >
+          <img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" />
+        </div>
+        <div class="container">
+          <div class="wave"></div>
+        </div>
+        </div>
     </div>
     )
 }

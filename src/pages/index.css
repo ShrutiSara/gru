@@ -106,12 +106,64 @@ a.blue:visited {
     background-color: rgb(2, 240, 200);
     color: black !important;
 }
+
 .hvr-wobble-to-bottom-right button {
     color: white ;
 }
 
 .tiny-text {
     font-size: 15px;
-    padding-right: 270px;
-    padding-left: 270px;
+    padding:10px 270px;
+}
+
+.main-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.container {
+    position: relative;
+    background: #880096;
+    height: 50vh;
+}
+
+.wave {
+    position: absolute;
+    height: 99px;
+    width: 100%;
+    background: #880096;
+    bottom: 0;
+}
+
+.wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+}
+
+.wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+}
+.wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #880096;
+    left: -1.5%;
+    top: 40%;
+}
+
+.stack-top{
+    z-index: 9;
+    margin: 20px; 
+    width:50%
+}
+
+.big-img {
+    height:100px;
+    width:100px; 
 }

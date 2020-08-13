@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    display: block;
+    flex-direction: column;
 }
 
 .gru {
@@ -62,7 +64,7 @@ a.blue:visited {
 
 .right-button1 {
     position: absolute;
-    right: 180px;
+    right: 200px;
     font-weight: 300;
 }
 
@@ -131,9 +133,11 @@ a.blue:visited {
 .main-container {
     width: 100%;
     height: 200px;
+    display: block;
     position: relative;
 }
 .container {
+    display: block;
     position: relative;
     background: #880096;
     height: 100vh;
@@ -173,3 +177,33 @@ a.blue:visited {
     z-index: 9;
     top: 100px;
 }
+
+.customers {
+    position: relative;
+    display: block;
+    top: 1200px;
+    padding-left: 150px;
+    font-size: 24px;
+    font-weight: 3000;
+}
+
+.logo-container {
+    display: block;
+}
+.space-img {
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .side-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .desktop-nav-container {
+        display: none;
+    }
+}
+
+

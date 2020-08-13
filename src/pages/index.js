@@ -1,9 +1,12 @@
 import React from 'react'
 import 'antd/dist/antd.css';
+import { Menu } from 'antd';
+
 import './index.css'
 
 import { Popover, Button } from 'antd';
 
+const { SubMenu } = Menu;
 
 export default function Home() {
   const product = (
@@ -57,8 +60,42 @@ export default function Home() {
             <Button type="link" style={{color: "black"}} ghost>Log in</Button>
           </div>
           <div class="right-button2">
-            <Button type="primary" class="button" style={{color: "white", width: 130}} >Sign up for free</Button>
+            <a href="#" type="primary" class="button" style={{color: "white", width: 130}} >Sign up for free</a>
           </div>
+        </div>
+        <div class="side-menu">
+          <a href="#" class="hvr-bounce-in"><img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5d992e6ce288d83a93a1a0d8_Guru_AllBlack.svg" class="gru" /></a>
+          <Menu
+            style={{ width: 256 }}
+            defaultSelectedKeys={['1']}
+            defaultOpenKeys={['sub1']}
+          >
+            <SubMenu key="sub1" title="Product">
+              <Menu.Item key="1">Features</Menu.Item>
+              <Menu.Item key="2">What is Gru</Menu.Item>
+              <Menu.Item key="3">Integrations</Menu.Item>
+            </SubMenu>
+            <Menu.Item key="4">
+            Pricing
+            </Menu.Item>
+            <SubMenu key="sub2" title="Solutions">
+              <Menu.Item key="5">Support</Menu.Item>
+              <Menu.Item key="6">Sales</Menu.Item>
+              <Menu.Item key="7">Marketing</Menu.Item>
+              <Menu.Item key="8">Company-Wide</Menu.Item>
+              <Menu.Item key="9">Remote Work</Menu.Item>
+            </SubMenu>
+            <Menu.Item key="10">
+            Customers
+            </Menu.Item>
+            <SubMenu key="sub3" title="Resources">
+              <Menu.Item key="11">Guru Help Center</Menu.Item>
+              <Menu.Item key="12">Blog</Menu.Item>
+              <Menu.Item key="13">References</Menu.Item>
+              <Menu.Item key="14">Events</Menu.Item>
+              <Menu.Item key="15">Developers</Menu.Item>
+            </SubMenu>
+          </Menu>
         </div>
       </div>
       <div class="subheader">
@@ -81,14 +118,20 @@ export default function Home() {
           <div class="wave"></div>
         </div>
       </div>
-      <p>You’ll be in <em>very</em> good company with Guru&#x27;s other customers</p>
+      <div>
+        <div class="customers">
+          <p>You’ll be in <em>very</em> good company with Gru&#x27;s other customers</p>
+          <div class="logo-container">
+            <img class="space-img" style={{height: 100, width: 150}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5dc1d8879ecea447cfe3f47f_airtable.svg" />
+            <img class="space-img" style={{height: 100, width: 150}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0660811163852d810e007_spotify.svg" />
+            <img class="space-img" style={{height: 100, width: 150}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5dc1d88780d7b32f4e4dd278_chorus.svg"  />
+            <img class="space-img" style={{height: 100, width: 150}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db06608fcdc19a3e624f3da_shopify.svg" />
+            <img class="space-img" style={{height: 100, width: 150}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db066081c624d112664fe2a_slack.svg" />
+            <img class="space-img" style={{height: 100, width: 150}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db06608624900810db85326_glossier.svg" />
+            <img class="space-img" style={{height: 40, width: 160}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5dc321d578cf5312f97d0ada_square.png"  />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
-
-
-
-
-
-
-

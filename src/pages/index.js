@@ -186,6 +186,70 @@ const contentStyle = {
           </div>
         </Carousel>
       </div>
+      <div class="res-carousel">
+        <Carousel autoplay>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+        </Carousel>
+      </div>
     </div>
   )
 }

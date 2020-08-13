@@ -219,6 +219,13 @@ a.blue:visited {
     padding-right: 60px;
 }
 
+.res-carousel {
+    position: relative;
+    top: 1250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .slide-align1 {
     position: relative;
     display: flex;
@@ -246,8 +253,20 @@ a.blue:visited {
     bottom: 550px
 }
 
+.slide-align {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    height: 300px;
+    top: 50px
+}
+
 @media screen and (min-width: 900px) {
     .side-menu {
+        display: none;
+    }
+    .res-carousel {
         display: none;
     }
 }
@@ -274,6 +293,9 @@ a.blue:visited {
     }
     .logo-container {
         text-align: center;
+    }
+    .carousel {
+        display: none;
     }
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import 'antd/dist/antd.css';
-import { Menu, Dropdown, Popover, Button } from 'antd';
+import { Menu, Dropdown, Popover, Button, Carousel } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 
 import './index.css'
@@ -42,7 +42,7 @@ export default function Home() {
 
 const menu = (
   <Menu
-    style={{ width: 256 }}
+    style={{ width: 380}}
     defaultSelectedKeys={['1']}
     defaultOpenKeys={['sub1']}
   >
@@ -65,14 +65,29 @@ const menu = (
     Customers
     </Menu.Item>
     <SubMenu key="sub3" title="Resources">
-      <Menu.Item key="11">Guru Help Center</Menu.Item>
+      <Menu.Item key="11">Gru Help Center</Menu.Item>
       <Menu.Item key="12">Blog</Menu.Item>
       <Menu.Item key="13">References</Menu.Item>
       <Menu.Item key="14">Events</Menu.Item>
       <Menu.Item key="15">Developers</Menu.Item>
     </SubMenu>
+    <Menu.Item key="sub16">
+      Log in
+    </Menu.Item>
+    <Menu.Item key="sub17" style={{backgroundColor: "black", color: "white" }}>
+      Sign up free
+    </Menu.Item>
   </Menu>
 )
+
+const contentStyle = {
+  height: '400px',
+  color: '#fff',
+  lineHeight: '400px',
+  textAlign: 'center',
+  background: '#364d79',
+}
+
   return (
     <div>
       <div class="new-nav-background">
@@ -93,7 +108,7 @@ const menu = (
             <Button type="link" style={{color: "black"}} ghost>Log in</Button>
           </div>
           <div class="right-button2">
-            <a href="#" type="primary" class="button" style={{color: "white", width: 130}} >Sign up for free</a>
+            <a href="#" type="primary" class="button" style={{color: "white", width: 130}} >Sign up free</a>
           </div>
         </div>
         <div class="side-menu">
@@ -112,7 +127,7 @@ const menu = (
           Spend less time searching &amp; more time doing whatever it was you were actually hired to do.
         </div>
         <br/>
-        <a href="#" style={{color: 'white'}} class="hvr-wobble-to-bottom-right button hvr-outline-out button-border">Pick a plan</a>
+        <a href="#" style={{color: 'white'}} class="hvr-wobble-to-bottom-right button hvr-ripple-out button-border">Pick a plan</a>
         <div class="tiny-text">Get started for <strong>free</strong>! 🚀</div>
       </div> 
       <div class="main-container">
@@ -138,6 +153,38 @@ const menu = (
             <img class="space-img" style={{height: 40, width: 160}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5dc321d578cf5312f97d0ada_square.png"  />
           </div>
         </div>
+      </div>
+      <div class="carousel">
+        <Carousel autoplay>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align1" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align2" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align3" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align1" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align2" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align3" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align1" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align2" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align3" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>
+              <img class="slide-align1" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align2" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+              <img class="slide-align3" src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0a4956f24347935972ca0_quote%20graphic-p-500.png" />
+            </h3>
+          </div>
+        </Carousel>
       </div>
     </div>
   )

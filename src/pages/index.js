@@ -1,10 +1,9 @@
 import React from 'react'
 import 'antd/dist/antd.css';
-import { Menu } from 'antd';
+import { Menu, Dropdown, Popover, Button } from 'antd';
+import { MenuOutlined } from '@ant-design/icons';
 
 import './index.css'
-
-import { Popover, Button } from 'antd';
 
 const { SubMenu } = Menu;
 
@@ -40,6 +39,40 @@ export default function Home() {
       <a href='#'><p><b>💾  Developers</b><br/>Build powerful, custom knowledge experiences with Gru&#x27;s API.</p></a>
     </div>
   )
+
+const menu = (
+  <Menu
+    style={{ width: 256 }}
+    defaultSelectedKeys={['1']}
+    defaultOpenKeys={['sub1']}
+  >
+    <SubMenu key="sub1" title="Product">
+      <Menu.Item key="1">Features</Menu.Item>
+      <Menu.Item key="2">What is Gru</Menu.Item>
+      <Menu.Item key="3">Integrations</Menu.Item>
+    </SubMenu>
+    <Menu.Item key="4">
+    Pricing
+    </Menu.Item>
+    <SubMenu key="sub2" title="Solutions">
+      <Menu.Item key="5">Support</Menu.Item>
+      <Menu.Item key="6">Sales</Menu.Item>
+      <Menu.Item key="7">Marketing</Menu.Item>
+      <Menu.Item key="8">Company-Wide</Menu.Item>
+      <Menu.Item key="9">Remote Work</Menu.Item>
+    </SubMenu>
+    <Menu.Item key="10">
+    Customers
+    </Menu.Item>
+    <SubMenu key="sub3" title="Resources">
+      <Menu.Item key="11">Guru Help Center</Menu.Item>
+      <Menu.Item key="12">Blog</Menu.Item>
+      <Menu.Item key="13">References</Menu.Item>
+      <Menu.Item key="14">Events</Menu.Item>
+      <Menu.Item key="15">Developers</Menu.Item>
+    </SubMenu>
+  </Menu>
+)
   return (
     <div>
       <div class="new-nav-background">
@@ -64,38 +97,12 @@ export default function Home() {
           </div>
         </div>
         <div class="side-menu">
-          <a href="#" class="hvr-bounce-in"><img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5d992e6ce288d83a93a1a0d8_Guru_AllBlack.svg" class="gru" /></a>
-          <Menu
-            style={{ width: 256 }}
-            defaultSelectedKeys={['1']}
-            defaultOpenKeys={['sub1']}
-          >
-            <SubMenu key="sub1" title="Product">
-              <Menu.Item key="1">Features</Menu.Item>
-              <Menu.Item key="2">What is Gru</Menu.Item>
-              <Menu.Item key="3">Integrations</Menu.Item>
-            </SubMenu>
-            <Menu.Item key="4">
-            Pricing
-            </Menu.Item>
-            <SubMenu key="sub2" title="Solutions">
-              <Menu.Item key="5">Support</Menu.Item>
-              <Menu.Item key="6">Sales</Menu.Item>
-              <Menu.Item key="7">Marketing</Menu.Item>
-              <Menu.Item key="8">Company-Wide</Menu.Item>
-              <Menu.Item key="9">Remote Work</Menu.Item>
-            </SubMenu>
-            <Menu.Item key="10">
-            Customers
-            </Menu.Item>
-            <SubMenu key="sub3" title="Resources">
-              <Menu.Item key="11">Guru Help Center</Menu.Item>
-              <Menu.Item key="12">Blog</Menu.Item>
-              <Menu.Item key="13">References</Menu.Item>
-              <Menu.Item key="14">Events</Menu.Item>
-              <Menu.Item key="15">Developers</Menu.Item>
-            </SubMenu>
-          </Menu>
+          <a href="#" class="hvr-bounce-in right-logo"><img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5d992e6ce288d83a93a1a0d8_Guru_AllBlack.svg" class="gru" /></a>
+          <Dropdown overlay={menu}>
+            <a className="ant-dropdown-link hamburger-icon" onClick={e => e.preventDefault()}>
+            <MenuOutlined style={{color: "black", fontSize: '25px'}} />
+            </a>
+          </Dropdown>
         </div>
       </div>
       <div class="subheader">

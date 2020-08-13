@@ -74,6 +74,17 @@ a.blue:visited {
     font-weight: 300;
 }
 
+.right-logo {
+    position: absolute;
+    right: 10px;
+}
+
+.hamburger-icon {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
 .subheader {
     padding-top: 100px;
     text-align: center;

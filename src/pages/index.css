@@ -226,7 +226,7 @@ a.blue:visited {
 
 .res-carousel {
     position: relative;
-    top: 1250px;
+    top: 600px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -262,14 +262,13 @@ a.blue:visited {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding-left: 120px;
     height: 300px;
     top: 50px
 }
 
 .ready {
     position: relative;
-    
     height: 200px;
     top: 1300px;
     font-size: 40px;
@@ -301,6 +300,9 @@ a.blue:visited {
         display: none;
     }
     .res-carousel {
+        display: none;
+    }
+    .res {
         display: none;
     }
 }
@@ -342,6 +344,26 @@ a.blue:visited {
     .icon {
         bottom: -30px;
         left: 180px;
+    }
+    .big-img {
+        display: none;
+    }
+    .res {
+        height: 500px;
+        width: 500px;
+        margin: 40px;
+    }
+    .container {
+        height: 50vh;
+    }
+    .customers {
+        top: 500px;
+    }
+    .ready {
+        top: 700px;
+    }
+    .footer {
+        top: 900px;
     }
 }
 

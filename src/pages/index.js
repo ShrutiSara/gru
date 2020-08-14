@@ -133,7 +133,10 @@ const contentStyle = {
       <div class="main-container">
         <div class="container stack-top">
           <div class="hvr-rotate">
-            <img style={{height: 800, width:1000, margin:170}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" />
+            <img style={{height: 800, width:1000, margin:170}} src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x.png" class="big-img" />
+            <div class="res">
+              <img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db1060df47aa6a6c115bba1_Intercom%402x-p-500.png" />
+            </div>
           </div>
         </div>
         <div class="container">
@@ -154,6 +157,7 @@ const contentStyle = {
           </div>
         </div>
       </div>
+      {/* <img src="https://assets.website-files.com/5d8d029013ffd80bbb91320d/5dc06cbc8b310744d59658cd_integrations%403x.jpg" /> */}
       <div class="carousel">
         <Carousel autoplay>
           <div>

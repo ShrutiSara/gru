@@ -284,6 +284,18 @@ a.blue:visited {
     border-color: 'black' !important;
 }
 
+.footer {
+    position: relative;
+    top: 1400px;
+    font-size: 18px;
+}
+
+.icon {
+    position: absolute;
+    right: 100px;
+    bottom:5px;
+}
+
 @media screen and (min-width: 900px) {
     .side-menu {
         display: none;
@@ -323,6 +335,13 @@ a.blue:visited {
     }
     .carousel {
         display: none;
+    }
+    .footer {
+        top:1600px;
+    }
+    .icon {
+        bottom: -30px;
+        left: 180px;
     }
 }
 

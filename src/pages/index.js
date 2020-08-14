@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css';
-import { Menu, Dropdown, Popover, Button, Carousel } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
+import { Menu, Dropdown, Popover, Button, Carousel, Row, Col } from 'antd';
+import { MenuOutlined, CopyrightOutlined, TwitterOutlined, LinkedinFilled, InstagramOutlined, YoutubeFilled } from '@ant-design/icons';
 
 import './index.css'
 
@@ -260,6 +260,187 @@ const contentStyle = {
           <Button style={{width: 170, height: 60, padding: '15px 0', color: 'black'}} ghost>Request a demo</Button>
         </span>
       </div>
+      <footer class="footer">
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            <strong>Product</strong>
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            <strong>By Use Case</strong>
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            <strong>Company</strong>
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            <strong>Support</strong>
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            <strong>Resources</strong>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Features
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Support
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            About Us
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Gru Help Center
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Blog
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Pricing
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Sales
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Customers
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Status
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            References
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Integrations
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Marketing
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Careers
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Security
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Events
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Why Gru?
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Company-wide
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Press kit
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Developers
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Knowledge management software
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Remote work
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Stay in the know
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Gru Academy
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Internal wiki
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Employee onboarding
+          </Col>
+        </Row>
+        <br/>
+        <br/>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+              <strong>More</strong>
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            <strong>Contact Us</strong>
+          </Col>
+          <Col>
+            
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Sales enablement
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            267.469.0264
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Switch to Gru
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            info@getgru.com
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Knowledge management
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            121 S Broad St, Floor 11, Philadelphia, PA
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Knowledge driven culture
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Slack
+          </Col>
+        </Row>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Row>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Terms of service
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Dev agreement
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Privacy
+          </Col>
+          <Col xs={{ span: 7, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+            Beta agreement
+          </Col>
+        </Row>
+        <p style={{paddingLeft: '112px'}}><CopyrightOutlined />2020 Gru Technologies, Inc</p>
+        <div class="icon">
+          <TwitterOutlined style={{fontSize: '30px'}} /> <LinkedinFilled style={{fontSize: '30px'}} /> <InstagramOutlined style={{fontSize: '30px'}} /> <YoutubeFilled style={{fontSize: '30px'}} />
+        </div>
+      </footer>
     </div>
   )
 }

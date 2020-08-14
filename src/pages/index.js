@@ -250,6 +250,16 @@ const contentStyle = {
           </div>
         </Carousel>
       </div>
+      <div class="ready" style={{textAlign: 'center'}}>
+        <strong>Ready to get Gru?</strong>
+        <p class="tiny-text" style={{fontSize: '25px'}}>It&#x27;s <strong>FREE</strong> and easy to get started. Just pick the plan that works best for your team, or chat with one of our experts to learn more.</p>
+        <span>
+          <a href="#" style={{color: 'white'}} class="hvr-wobble-to-bottom-right button hvr-ripple-out button-border">Pick a plan</a>
+          &nbsp;
+          &nbsp;
+          <Button style={{width: 170, height: 60, padding: '15px 0', color: 'black'}} ghost>Request a demo</Button>
+        </span>
+      </div>
     </div>
   )
 }

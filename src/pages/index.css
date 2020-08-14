@@ -2,6 +2,9 @@ body {
     background-color: white;
     display: block;
     flex-direction: column;
+    background-image: url("https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0ffab083f4b30b09e5eef_SQWIGGLE%203.png");
+    background-position: center;
+    background-size: contain;
 }
 
 .gru {
@@ -193,6 +196,8 @@ a.blue:visited {
 .stack-top{
     z-index: 9;
     top: 100px;
+    background-image: url("https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0ffab083f4b30b09e5eef_SQWIGGLE%203.png");
+    background-position: center;
 }
 
 .customers {
@@ -262,6 +267,23 @@ a.blue:visited {
     top: 50px
 }
 
+.ready {
+    position: relative;
+    
+    height: 200px;
+    top: 1300px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.demo {
+    display: absolute;
+}
+
+.demo:hover {
+    border-color: 'black' !important;
+}
+
 @media screen and (min-width: 900px) {
     .side-menu {
         display: none;
@@ -272,6 +294,11 @@ a.blue:visited {
 }
 
 @media screen and (max-width: 900px) {
+    body {
+        background-image: url("https://assets.website-files.com/5d8d029013ffd80bbb91320d/5db0ffab083f4b30b09e5eef_SQWIGGLE%203.png");
+        background-position: center;
+        background-size: cover;
+    }
     .desktop-nav-container {
         display: none;
     }
